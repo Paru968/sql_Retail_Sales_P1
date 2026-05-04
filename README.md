@@ -92,7 +92,9 @@ where sale_date='2022-11-05';
 --and quantity sold in more than 10 in month of nov-2022
 
 select *
+
 from retail_sales111
+
 where category='Clothing'
 and
 To_char(sale_date,'yyyy-mm')='2022-11'
