@@ -79,9 +79,13 @@ select  distinct category  from retail_sales111;
 --data analysis & business key probleams &ans
 
 --q1. write a sql query to retrive all column for sales made on 2022-11-05
+
 select *
+
 from retail_sales111
+
 where sale_date='2022-11-05';
+
 
 
 --q2.q1. write a sql query to retrive all transactions where category is 'clothing'
